@@ -453,6 +453,14 @@ figcaption{
       margin: 0;
   }
     
+  .about {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 50px;
+    width: 90%;
+    align-items: center;
+}
   }
   
 
