@@ -37,6 +37,7 @@ header {
   header a {
     text-decoration: none;
     color: #92cccd;
+    
   }
   
   header nav {
@@ -56,13 +57,16 @@ header {
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-position: under;
   }
   
 /* header ends */
 
 /* sections */
 section {
-    padding: 20px;
+    padding: 10px;
   }
 
   /* HERO STYLES START */
@@ -124,10 +128,10 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 20px 50px;  
+    margin: 20px 30px;  
     width: 90%;
-    align-items: center;
-  }
+    align-items: center;}
+    
   
 .flex-row {
     display: flex;
@@ -136,9 +140,9 @@ section {
   
 .section-title {
     font-size: 35px;
-    font-family:Serif;
+    font-family: Helvetica, Arial, sans-serif;
     color: #024e76;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 50px;
     width: 50%;
   }
   
@@ -161,7 +165,7 @@ section {
   
 .step-text p {
     color: var(--primary-color);
-    font-size: 15px;
+    font-size: 18px;
     text-align: left;
     line-height: 1.3;
     margin-left: 30px;
@@ -178,7 +182,8 @@ section {
 .vl-border2{
     border-right: 3px solid #497094;
     height: 450px;
-    flex: 2 5%;  
+    flex: 2 5%;
+    
     
   }
 
@@ -208,7 +213,7 @@ section {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border: solid 1px var(--primary-color);  
+  border: solid 5px #91cbcd;  
  }
 
 figcaption{
@@ -216,27 +221,25 @@ figcaption{
   margin-left: 5px;
   margin-top: -20%;
   font-size: 12px;
-  font-style: italic;
   font-weight: bold;
   color:  rgb(22, 44, 44);
-  border: solid 1px var(--primary-color);
-  background-color: rgb(229, 232, 238);
+  background-color: #91cbcd;
 }
   
 .gallery__item--1 {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 4;
-  position: relative;
+  border: solid 5px #91cbcd;
   
   }
   
 .gallery__item--2 {
     grid-column-start: 3;
     grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
     }
   
 .gallery__item--3 {
@@ -247,9 +250,9 @@ figcaption{
   }
   
 .gallery__item--4 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 5;
   grid-row-end: 4;
   }
   
@@ -331,12 +334,9 @@ figcaption{
       font-size: 20px;
     }
   
-    footer h2, footer div {
-      text-align: center;
-      width: 100%;
-    }
+    
   
-    .hero-cta, .hero-form {
+     .hero-box {
       width: 100%;
     }
     
