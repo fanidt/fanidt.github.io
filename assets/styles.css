@@ -220,6 +220,10 @@ section {
   border: solid 0.55vw #91cbcd;  
  }
 
+ .gallery__img:hover {
+    filter: blur(5px);
+ }
+
  .gallery__item--1 figcaption{
     margin-top: -5%;
     font-size: 1vw;
@@ -438,13 +442,17 @@ figcaption{
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
+    
     .contact-info ul li a {
-        font-size: 1.55vw;
+        font-size: 15px;
         line-height: 2;  
         font-weight: bold;
   }
   
-  
+  .section-title .h2{
+      margin: 0;
+  }
+    
   }
   
 
