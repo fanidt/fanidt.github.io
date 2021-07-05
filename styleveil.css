@@ -57,7 +57,7 @@
 
 font-family: 'Pacifico', cursive;
   border: none;
-  color: #c6e2ff;
+  color: #073668;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -79,7 +79,7 @@ font-family: 'Pacifico', cursive;
 @keyframes neon {
   from {
     text-shadow:
-    0 0 6px rgba(190, 223, 219, 0.92),
+    0 0 6px rgba(110, 125, 148, 0.92),
     0 0 30px rgba(202,228,225,0.34),
     0 0 12px rgba(30,132,242,0.52),
     0 0 21px rgba(30,132,242,0.92),
