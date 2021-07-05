@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .projects{
+
+    padding-top:150px;
+    padding-left:15px;
+    padding-right:15px;
+
+  }
+
+
+.featured {
+
+    height: 100vh;
+
+    background-image: url("./assets/images/brickWall.png");
+    color: white;
+}
+
+.featured img {
+
+    height: 250px;
+    width: 300px;
+}
+
+.f1 {
+    float:right;
+    height: 250px;
+    width: 300px;
+    margin-left: 40px;
+}
+.overlay1 {
+    position: absolute;
+    top: 20%;
+    /* bottom: 100;
+    left: 100;
+    right: 0; */
+    height: 250px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FF3131;
+    align-items:center ;
+  }
+  
+  .f1:hover .overlay1 {
+    opacity: 0.5;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .f2 {
+    float:right;
+    height: 250px;
+    width: 300px;
+    margin-left: 40px;
+}
+.overlay2 {
+    position: absolute;
+    top: 20%;
+    
+    height: 250px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #fe019a;
+  }
+  
+  .f2:hover .overlay2 {
+    opacity: 0.5;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .f3 {
+    float:right;
+    height: 250px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 20%;
+    
+    height: 250px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #04d9ff;
+  }
+  
+  .f3:hover .overlay3 {
+    opacity: 0.5;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .featuredtext{
+      font-family: Pacifico;
+    color: #c32aff;
+    
+    font-size: 50px;
+    position: absolute;
+
+  left: 10%;
+  bottom:  50%;
+  transform: rotate(-20deg);
+  
+  }
+
+  .featuredtext:hover{
+      color: white;
+    animation: neon 0.8s ease-in-out infinite alternate;
+  }
+  @keyframes neon {
+    from {
+      text-shadow:
+      0 0 6px rgba(211, 190, 223, 0.92),
+      0 0 30px rgba(228, 202, 225, 0.34),
+      0 0 12px rgba(207, 30, 242, 0.52),
+      0 0 21px rgba(224, 30, 242, 0.92),
+     
+      0 0 54px rgba(200, 30, 242, 0.92);
+    }
+    to {
+      text-shadow:
+      0 0 6px rgba(211, 190, 223, 0.92),
+      0 0 30px rgba(228, 202, 225, 0.34),
+      0 0 12px rgba(207, 30, 242, 0.52),
+      0 0 21px rgba(224, 30, 242, 0.92),
+      0 0 34px rgba(200, 30, 242, 0.78),
+      0 0 54px rgba(200, 30, 242, 0.92);
+    }
+  }
