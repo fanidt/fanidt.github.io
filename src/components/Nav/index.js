@@ -9,7 +9,9 @@ return(
    
    <ul className= "flex-row"> 
    {props.pages.map(page => (
-       <li key= {page.name}> 
+       <li className='navlist'
+       
+       key= {page.name}> 
        <span onClick= {()=> props.setCurrentpage(page)}> 
            { page.name}
        </span>

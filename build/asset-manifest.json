@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2267f59.chunk.css",
+    "main.js": "/static/js/main.1602f441.chunk.js",
+    "main.js.map": "/static/js/main.1602f441.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a47bf52e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a47bf52e.js.map",
+    "static/css/2.983f79de.chunk.css": "/static/css/2.983f79de.chunk.css",
+    "static/js/2.d04e37c3.chunk.js": "/static/js/2.d04e37c3.chunk.js",
+    "static/js/2.d04e37c3.chunk.js.map": "/static/js/2.d04e37c3.chunk.js.map",
+    "static/js/3.4a33cc05.chunk.js": "/static/js/3.4a33cc05.chunk.js",
+    "static/js/3.4a33cc05.chunk.js.map": "/static/js/3.4a33cc05.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.983f79de.chunk.css.map": "/static/css/2.983f79de.chunk.css.map",
+    "static/css/main.a2267f59.chunk.css.map": "/static/css/main.a2267f59.chunk.css.map",
+    "static/js/2.d04e37c3.chunk.js.LICENSE.txt": "/static/js/2.d04e37c3.chunk.js.LICENSE.txt",
+    "static/media/FaniDelToroResumefinal2021.1f058014.pdf": "/static/media/FaniDelToroResumefinal2021.1f058014.pdf",
+    "static/media/LuckyPetsUnited.png": "/static/media/LuckyPetsUnited.544c50fa.png",
+    "static/media/Marsforecast.png": "/static/media/Marsforecast.37479956.png",
+    "static/media/Quizz.png": "/static/media/Quizz.5a6acb08.png",
+    "static/media/Track-your-Employees.png": "/static/media/Track-your-Employees.6c36ea6f.png",
+    "static/media/WorkDayPlanner.png": "/static/media/WorkDayPlanner.76ec6c02.png",
+    "static/media/budget-tracker.png": "/static/media/budget-tracker.ed3cac92.png",
+    "static/media/faniAvatar.png": "/static/media/faniAvatar.f4f3c52b.png",
+    "static/media/insta.png": "/static/media/insta.f33a0125.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a47bf52e.js",
+    "static/css/2.983f79de.chunk.css",
+    "static/js/2.d04e37c3.chunk.js",
+    "static/css/main.a2267f59.chunk.css",
+    "static/js/main.1602f441.chunk.js"
+  ]
+}
